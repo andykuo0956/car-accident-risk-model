@@ -21,4 +21,3 @@ def risk_model(polygon_appear,A1_traffic_accident_simple,A2_traffic_accident_sim
         total_risk += A1_risk_sum + A2_risk_sum
     
     return total_risk
-
