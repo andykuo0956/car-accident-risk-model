@@ -32,8 +32,15 @@ This will start the Flask server and make the API available at http://localhost:
 ## Using the API
 To use the API, send a POST request to the endpoint /calculate_risk with a GeoJSON of the user's living area in the request body. The program will calculate the risk of traffic accidents in the user's living area based on publicly available data and return a risk value in the response.
 
-You can use testingGeojson.geojson in Flask-API-Risk-modelV1 to test this API
-The response will be a JSON object with the risk value for the user's living area.
+You can use testingGeojson.geojson to test this API
+The response will be a risk value for the user's living area.
+
+You can use Postman to test this API:
+1. Open your Postman 
+2. Use http://localhost:3000 for testing
+3. Choose Post
+4. Paste the code from `testingGeojson.geojson` on Postman
+5. This API will return a danger value of these areas
 
 ## License
 This program is licensed under the MIT License - see the LICENSE file for details.
